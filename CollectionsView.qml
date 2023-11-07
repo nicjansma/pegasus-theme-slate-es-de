@@ -124,7 +124,8 @@ FocusScope {
                 anchors.bottom: hiddenBar.top
                 anchors.bottomMargin: 20
                 fillMode: Image.PreserveAspectFit
-                source: modelData.shortName ? "controller/%1.svg".arg(modelData.shortName) : ""
+                // NOTE: SVGs were rendering black for many of these, so converted to PNG
+                source: modelData.shortName ? "controller/%1.png".arg(modelData.shortName) : ""
                 asynchronous: true
             }
 
@@ -138,7 +139,8 @@ FocusScope {
                 anchors.bottom: hiddenBar.top
                 anchors.bottomMargin: 20
                 fillMode: Image.PreserveAspectFit
-                source: modelData.shortName ? "consolegame/%1.svg".arg(modelData.shortName) : ""
+                // NOTE: SVGs were rendering black for many of these, so converted to PNG
+                source: modelData.shortName ? "consolegame/%1.png".arg(modelData.shortName) : ""
                 asynchronous: true
             }
         }
