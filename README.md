@@ -18,3 +18,4 @@ It's based off of work from [Mátyás Mustoha](https://github.com/mmatyas) for t
 
 * Forked from [pegasus-theme-es2-simple](https://github.com/mmatyas/pegasus-theme-es2-simple/)
 * System images and colors from [EmulationStation-DE](https://gitlab.com/es-de/emulationstation-de/-/tree/master/themes/slate-es-de)
+  * SVGs were ran through [scour](https://github.com/scour-project/scour) to fix SVG support in Pegasus which uses [SVG Tiny 1.2](https://github.com/mmatyas/pegasus-frontend/issues/870)
